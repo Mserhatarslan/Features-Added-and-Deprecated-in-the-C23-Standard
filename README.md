@@ -88,7 +88,11 @@ C23: a slightly better C
   
   #embed
 
-* Single-argument _Static_assert
+* Single-argument _Static_assert (Improved static assertion capabilities.)
+
+* Support for ranges in for loops.
+
+* Enhanced support for flexible array members.
 
 * strdup was not part of the C standard library; it was a POSIX function.
 
