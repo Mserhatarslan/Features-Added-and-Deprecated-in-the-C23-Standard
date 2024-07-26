@@ -99,6 +99,9 @@ C23: a slightly better C
 With the C23 standard, some changes were made, and the strdup function was included in the C standard library. This means that the strdup function can now be used with compilers that support the C23 standard and is no longer exclusive to POSIX.
 
 Therefore, if you are using a compiler that supports the C23 standard, you can use the strdup function without any portability concerns.
+Using strdup you can get a modifiable copy of the string word or any string. In this way, you can change its contents without encountering the problems of replacing the hard memory.
+
+
 
 ## New Headers
 
