@@ -90,6 +90,12 @@ C23: a slightly better C
 
 * Single-argument _Static_assert
 
+* strdup was not part of the C standard library; it was a POSIX function.
+
+With the C23 standard, some changes were made, and the strdup function was included in the C standard library. This means that the strdup function can now be used with compilers that support the C23 standard and is no longer exclusive to POSIX.
+
+Therefore, if you are using a compiler that supports the C23 standard, you can use the strdup function without any portability concerns.
+
 ## New Headers
 
 * <stdbit.h>
