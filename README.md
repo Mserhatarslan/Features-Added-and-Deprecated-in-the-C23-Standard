@@ -53,3 +53,47 @@ C23: a slightly better C
 * DEC_NAN
   
 * __bool_true_false_are_defined
+
+
+## New language features
+* Attributes
+  
+  [[deprecated]]
+  
+  [[fallthrough]]
+  
+  [[maybe_unused]]
+  
+  [[nodiscard]]
+  
+  [[noreturn]]
+  
+  [[reproducible]]
+  
+  [[unsequenced]]
+  
+* static_assert becomes a keyword (may be a predefined macro for compatibility reasons)
+
+* thread_local becomes a keyword (may be a predefined macro for compatibility reasons)
+
+* nullptr constant and the associated nullptr_t type
+  
+* New preprocessor directives
+  
+  #elifdef
+  
+  #elifndef
+  
+  #warning
+  
+  #embed
+
+* Single-argument _Static_assert
+
+## New Headers
+
+* <stdbit.h>
+  
+* <stdckdint.h>
+
+
