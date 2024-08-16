@@ -101,7 +101,9 @@ With the C23 standard, some changes were made, and the strdup function was inclu
 Therefore, if you are using a compiler that supports the C23 standard, you can use the strdup function without any portability concerns.
 Using strdup you can get a modifiable copy of the string word or any string. In this way, you can change its contents without encountering the problems of replacing the hard memory.
 
-
+* free_sized
+  
+* free_aligned_sized
 
 ## New Headers
 
