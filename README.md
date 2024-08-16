@@ -105,6 +105,11 @@ Using strdup you can get a modifiable copy of the string word or any string. In 
   
 * free_aligned_sized
 
+# Pragmas for rounding direction
+
+* STDC FENV_ROUND
+* STDC FENV_DEC_ROUND
+
 ## New Headers
 
 * <stdbit.h>
