@@ -105,11 +105,25 @@ Using strdup you can get a modifiable copy of the string word or any string. In 
   
 * free_aligned_sized
 
-# Pragmas for rounding direction
+## Pragmas for rounding direction
 
 * STDC FENV_ROUND
 * STDC FENV_DEC_ROUND
 
+## POSIX functions
+
+* memccpy()
+  
+* strdup()
+  
+* strndup()
+  
+* gmtime_r()
+  
+* localtime_r()
+  
+* Extensions for strftime() and wcsftime()
+  
 ## New Headers
 
 * <stdbit.h>
